@@ -27,10 +27,7 @@ def move(my_history, their_history, my_score, their_score):
     # Decide whether to return 'c' or 'b'.
     
     if len(my_history) <5:
-        if len(my_history)%2 == 0:
             return 'c'
-        else:
-            return 'b'
     else:
         totalc=0
         totalb=0
